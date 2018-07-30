@@ -1,0 +1,20 @@
+Create a class Prog3. Inside its main method, create float variables to store each of the following numbers:
+1.27, 3.881, 9.6
+Output to the console the following two values:
+1. the sum of the floats as an integer, obtained by casting the sum to type int
+2. the sum of the floats as an integer, obtained by rounding the sum to the nearest integer, using the Math.round function
+
+I used:
+Prog3 class that includes the main. This class includes a couple of methods to get the desire result.
+Test Cases using TDD.
+
+Static word in practice:
+
+A static variable is common to all the instances (or objects) of the
+class because it is a class level variable.
+
+Static methods in java belong to the class (not an instance of it). They
+use no instance variables and will usually take input from the
+parameters, perform actions on it, then return some result.
+
+This project used TDD with Junit test
